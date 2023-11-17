@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+.contact-text, .contact-image {
+  flex: 1;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional for styling */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-container {
+      flex-direction: column;
+  }
+}

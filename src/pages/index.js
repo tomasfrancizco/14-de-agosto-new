@@ -1,6 +1,7 @@
 import React from "react";
 import Cover from "../components/Cover";
 import Card from '../components/Card';
+import Contact from '../components/Contact';
 
 import '../styles/global.css';
 
@@ -20,6 +21,7 @@ const IndexPage = () => {
         <Card title="Wine" image={wineImage} />
         <Card title="Seafood" image={seafoodImage} />
       </div>
+      <Contact />
     </main>
   );
 };
