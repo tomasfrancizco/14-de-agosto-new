@@ -17,7 +17,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
 
@@ -28,4 +28,10 @@
 
 .cover-content p {
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .cover-container {
+      min-height: 50vh;
+  }
 }

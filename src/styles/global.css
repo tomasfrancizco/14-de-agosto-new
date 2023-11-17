@@ -1,7 +1,7 @@
 .cards-section {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: start;
   margin: 20px;
-  flex-wrap: wrap; /* Wrap cards on smaller screens */
+  flex-wrap: wrap;
 }
