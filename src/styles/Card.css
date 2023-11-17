@@ -32,11 +32,12 @@
 @media (max-width: 768px) {
   .cards-section {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 900px;
   }
 
   .card {
-      height: 200px;
+      height: 100%;
+      width: 100%;
   }
 }
