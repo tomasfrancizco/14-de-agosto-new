@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import './Cover.css';
+import '../styles/Cover.css';
 
 const Cover = ({ title, subtitle }) => {
     return (

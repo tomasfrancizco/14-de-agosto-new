@@ -1,0 +1,26 @@
+.card {
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust based on your preference */
+  flex: 1;
+  margin: 10px;
+  position: relative;
+  cursor: pointer; /* To indicate that the card is clickable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+      height: 200px;
+  }
+}
