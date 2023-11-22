@@ -16,16 +16,21 @@
   left: 50%;
   max-width: 80%;
   max-height: 80vh;
-  overflow: auto;
+  overflow: hidden !important;
   background: white;
   padding: 20px;
   outline: none;
 }
 
-/* Carousel Slide Image Styling */
-.slick-slide img {
+.slick-slider img {
   display: block;
-  margin: auto; /* Center the image */
-  max-width: 100%; /* Ensure image is not larger than its container */
-  max-height: 70vh; /* Adjust to control image height */
+  margin: auto;
+  max-width: 100%;
+  max-height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .ReactModal__Content--after-open {
+    inset: 0px !important;
+  }
 }
