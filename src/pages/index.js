@@ -13,16 +13,19 @@ import seafoodImage from '../images/seafood.png';
 import meat_1 from '../images/meat_1.png';
 import meat_2 from '../images/meat_2.png';
 import meat_3 from '../images/meat_3.png';
+import meat_4 from '../images/meat_4.png';
 import wine_1 from '../images/wine_1.png';
 import wine_2 from '../images/wine_2.png';
 import wine_3 from '../images/wine_3.png';
+import wine_4 from '../images/wine_4.png';
 import seafood_1 from '../images/seafood_1.png';
 import seafood_2 from '../images/seafood_2.png';
 import seafood_3 from '../images/seafood_3.png';
+import seafood_4 from '../images/seafood_4.png';
 
-const meatImages = [meat_1, meat_2, meat_3];
-const wineImages = [wine_1, wine_2, wine_3];
-const seafoodImages = [seafood_1, seafood_2, seafood_3];
+const meatImages = [meat_1, meat_2, meat_3, meat_4];
+const wineImages = [wine_1, wine_2, wine_3, wine_4];
+const seafoodImages = [seafood_1, seafood_2, seafood_3, seafood_4];
 
 const IndexPage = () => {
 

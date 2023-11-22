@@ -4,6 +4,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import '../styles/ImageModal.css';
+
 Modal.setAppElement('#___gatsby');
 
 const ImageModal = ({ isOpen, onRequestClose, images }) => {
@@ -14,6 +16,10 @@ const ImageModal = ({ isOpen, onRequestClose, images }) => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+
+    if (images.length === 0) {
+      return null;
+    }
 
     return (
         <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Image Carousel">
