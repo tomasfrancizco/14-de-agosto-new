@@ -1,3 +1,8 @@
+.ReactModal__Overlay {
+  transition: opacity 300ms ease-in-out;
+  opacity: 0; /* Start with a transparent overlay */
+}
+
 .ReactModal__Overlay--after-open {
   position: fixed;
   top: 0;
@@ -8,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 1;
 }
 
 .ReactModal__Content--after-open {
@@ -32,5 +38,18 @@
 @media (max-width: 768px) {
   .ReactModal__Content--after-open {
     inset: 0px !important;
+    max-width: 95%;
+    max-height: 95vh;
+  }
+
+  .slick-slider img {
+    max-height: 60vh;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .ReactModal__Content--after-open {
+    max-width: 1000px;
   }
 }

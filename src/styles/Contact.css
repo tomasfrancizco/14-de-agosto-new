@@ -25,3 +25,9 @@
     width: 100%;
   }
 }
+
+@media (min-width: 1200px) {
+  .contact-text {
+    padding-left: 5%;
+  }
+}
