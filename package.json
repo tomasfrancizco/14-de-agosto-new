@@ -22,6 +22,9 @@
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-sharp": "^5.12.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }
