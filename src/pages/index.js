@@ -52,7 +52,7 @@ const IndexPage = () => {
         <Card title="Seafood" image={seafoodImage} onClick={() => openModal(seafoodImages)} />
       </div>
 
-      <ImageModal 
+      <ImageModal
           isOpen={modalIsOpen} 
           onRequestClose={() => setModalIsOpen(false)} 
           images={selectedImages} 
