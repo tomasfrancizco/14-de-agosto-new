@@ -1,9 +1,15 @@
 /* src/components/Cover.css */
 .cover-container {
   height: 100vh;
+  max-height: 1200px;
   position: relative;
   text-align: center;
   color: white;
+  overflow: hidden;
+}
+
+.gatsby-image-wrapper {
+  height: 100%;
 }
 
 .cover-image {

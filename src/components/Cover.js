@@ -9,7 +9,10 @@ const Cover = ({ title, subtitle }) => {
             src="../images/temp_cover.jpeg"
             alt="Cover Image"
             placeholder="blurred"
-            layout="fullWidth"
+            loading='lazy'
+            aspectRatio={3 / 2} // Adjust this as needed
+            style={{ maxHeight: '1200px',  }}
+            imgStyle={{ objectFit: 'cover', objectPosition: 'center' }}
           />
           <div className="cover-content">
               <h1>{title}</h1>
