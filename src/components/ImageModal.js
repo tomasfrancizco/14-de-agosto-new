@@ -26,7 +26,8 @@ const ImageModal = ({ isOpen, onRequestClose, images }) => {
             <Slider {...settings}>
                 {images.map((image, index) => (
                     <div key={index}>
-                        <img src={image} alt={`Slide ${index}`} />
+                        <img src={image.src} alt={`Slide ${index}`} />
+                        <p className="carousel-text">{image.text}</p>
                     </div>
                 ))}
             </Slider>

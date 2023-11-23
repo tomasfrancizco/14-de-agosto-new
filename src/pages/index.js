@@ -23,13 +23,11 @@ import seafood_2 from '../images/seafood_2.png';
 import seafood_3 from '../images/seafood_3.png';
 import seafood_4 from '../images/seafood_4.png';
 
-const meatImages = [meat_1, meat_2, meat_3, meat_4];
-const wineImages = [wine_1, wine_2, wine_3, wine_4];
-const seafoodImages = [seafood_1, seafood_2, seafood_3, seafood_4];
+const meatImages = [{src: meat_1, text: "meat_1"}, {src: meat_2, text: "meat_2"}, {src: meat_3, text: "meat_3"}, {src: meat_4, text: "meat_4"}];
+const wineImages = [{src: wine_1, text: "wine_1"}, {src: wine_2, text: "wine_2"}, {src: wine_3, text: "wine_3"}, {src: wine_4, text: "wine_4"}];
+const seafoodImages = [{src: seafood_1, text: "seafood_1"}, {src: seafood_2, text: "seafood_2"}, {src: seafood_3, text: "seafood_3"}, {src: seafood_4, text: "seafood_4"}];
 
 const IndexPage = () => {
-
-  console.log(meat_1)
   
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImages, setSelectedImages] = useState([]);
@@ -37,7 +35,6 @@ const IndexPage = () => {
   const openModal = (images) => {
     setSelectedImages(images);
     setModalIsOpen(true);
-    console.log("openModal")
   };
   
   return (
@@ -55,7 +52,7 @@ const IndexPage = () => {
       <ImageModal
           isOpen={modalIsOpen} 
           onRequestClose={() => setModalIsOpen(false)} 
-          images={selectedImages} 
+          images={selectedImages}
       />
 
       <Contact />

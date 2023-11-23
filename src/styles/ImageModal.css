@@ -52,6 +52,10 @@
   max-height: 70vh;
 }
 
+.carousel-text {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .ReactModal__Content--after-open {
     inset: 0px !important;
