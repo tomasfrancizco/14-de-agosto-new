@@ -10,7 +10,7 @@
 .card {
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 350px;
   flex: 1;
   margin: 10px;
   position: relative;
@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
 .card:hover {
@@ -31,18 +32,24 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  height: 87%;
+  height: 88%;
   width: 100%;
   padding: 20px;
   text-align: center;
   transition: opacity 0.2s ease-in-out;
-  
   border-radius: 5px;
+  color: white;
 }
 
 .card-content:hover {
   opacity: 1;
   background-color: rgba(230, 230, 230, 0.3);
+}
+
+.card-content h2 {
+  background-color: rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 5px;
 }
 
 /* Responsive adjustments */

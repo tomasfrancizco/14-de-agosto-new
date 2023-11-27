@@ -41,7 +41,7 @@ const IndexPage = () => {
     <main>
       <Cover 
         title="14 De Agosto" 
-        subtitle="Number #1 Meat, Wine & Seafood supplier from Argentina" 
+        subtitle="Your Gateway to Argentina's Finest Meats, Wines, and Seafood" 
       />
       <div className="cards-section">
         <Card title="MEAT" image={meatImage} onClick={() => openModal(meatImages)} />

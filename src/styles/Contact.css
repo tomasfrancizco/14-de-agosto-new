@@ -10,10 +10,11 @@
   flex: 1;
 }
 
-.contact-image img {
-  width: 100%;
+.contact-image iframe {
+  /* width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 8px; */
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
 @media (max-width: 768px) {
