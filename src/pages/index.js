@@ -7,8 +7,8 @@ import ImageModal from '../components/ImageModal';
 import '../styles/global.css';
 
 import meatImage from '../images/meat.png';
-import wineImage from '../images/wine.jpg';
-import seafoodImage from '../images/seafood.png';
+import wineImage from '../images/pexels-grape-things-2954924.jpg';
+import seafoodImage from '../images/pexels-dana-tentis-725992.jpg';
 
 import meat_1 from '../images/meat_1.png';
 import meat_2 from '../images/meat_2.png';
@@ -44,9 +44,9 @@ const IndexPage = () => {
         subtitle="Number #1 Meat, Wine & Seafood supplier from Argentina" 
       />
       <div className="cards-section">
-        <Card title="Meat" image={meatImage} onClick={() => openModal(meatImages)} />
-        <Card title="Wine" image={wineImage} onClick={() => openModal(wineImages)} />
-        <Card title="Seafood" image={seafoodImage} onClick={() => openModal(seafoodImages)} />
+        <Card title="MEAT" image={meatImage} onClick={() => openModal(meatImages)} />
+        <Card title="WINE" image={wineImage} onClick={() => openModal(wineImages)} />
+        <Card title="SEAFOOD" image={seafoodImage} onClick={() => openModal(seafoodImages)} />
       </div>
 
       <ImageModal

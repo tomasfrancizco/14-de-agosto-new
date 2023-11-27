@@ -6,7 +6,7 @@ const Cover = ({ title, subtitle }) => {
     return (
         <div className='cover-container'>
           <StaticImage
-            src="../images/temp_cover.jpeg"
+            src="../images/pexels-helena-lopes-841303.jpg"
             alt="Cover Image"
             placeholder="blurred"
             loading='lazy'
@@ -16,7 +16,7 @@ const Cover = ({ title, subtitle }) => {
           />
           <div className="cover-content">
               <h1>{title}</h1>
-              <p>{subtitle}</p>
+              <h3>{subtitle}</h3>
           </div>
         </div>
     );
