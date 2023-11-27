@@ -38,18 +38,15 @@
   text-align: center;
   transition: opacity 0.2s ease-in-out;
   border-radius: 5px;
-  color: white;
+}
+
+.card:nth-child(2) {
+  color: white
 }
 
 .card-content:hover {
   opacity: 1;
   background-color: rgba(230, 230, 230, 0.3);
-}
-
-.card-content h2 {
-  background-color: rgba(0,0,0,0.2);
-  padding: 15px;
-  border-radius: 5px;
 }
 
 /* Responsive adjustments */
