@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import '../styles/Cover.css';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Cover = ({ title, subtitle }) => {
     return (
@@ -16,7 +17,7 @@ const Cover = ({ title, subtitle }) => {
           />
           <div className="cover-content">
               <h1>{title}</h1>
-              <h3>{subtitle}</h3>
+              <ReactTypingEffect text={[subtitle]} speed={50}/>
           </div>
         </div>
     );
