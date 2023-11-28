@@ -11,15 +11,12 @@
 }
 
 .contact-image iframe {
-  /* width: 100%;
-  height: auto;
-  border-radius: 8px; */
   box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
 @media (max-width: 768px) {
   .contact-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .contact-text, .contact-image {
