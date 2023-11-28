@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Navbar from "../components/Navbar";
 import Cover from "../components/Cover";
 import Card from '../components/Card';
 import Contact from '../components/Contact';
@@ -43,6 +44,7 @@ const IndexPage = () => {
         title="14 De Agosto" 
         subtitle="Your Gateway to Argentina's Finest Meats, Wines and Seafood." 
       />
+      <h3 className="cards-title">Our Products</h3>
       <div className="cards-section">
         <Card title="MEAT" image={meatImage} onClick={() => openModal(meatImages)} />
         <Card title="WINE" image={wineImage} onClick={() => openModal(wineImages)} />

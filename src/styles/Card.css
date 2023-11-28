@@ -1,3 +1,9 @@
+.cards-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
 .cards-section {
   margin-top: 20px;
   align-items: start;
@@ -51,6 +57,9 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .cards-title {
+    font-size: 2.3rem;
+  }
   .cards-section {
     flex-direction: column;
     align-items: center;

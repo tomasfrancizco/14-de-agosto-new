@@ -14,12 +14,40 @@
   box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
+.contact-text h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-text img {
+  width: 20px;
+}
+
+.contact-data {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contact-data p {
+  margin-left: 15px;
+}
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
   }
 
-  .contact-text, .contact-image {
+  .contact-text {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .contact-text h3 {
+    font-size: 2.3rem;
+  }
+
+  .contact-image {
     width: 100%;
   }
 }
