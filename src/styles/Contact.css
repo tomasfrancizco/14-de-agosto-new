@@ -6,11 +6,11 @@
   gap: 20px;
 }
 
-.contact-text, .contact-image {
+.contact-text, .contact-map {
   flex: 1;
 }
 
-.contact-image iframe {
+.contact-map iframe {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
@@ -47,7 +47,7 @@
     font-size: 2.3rem;
   }
 
-  .contact-image {
+  .contact-map {
     width: 100%;
   }
 }

@@ -30,7 +30,7 @@ const Contact = () => {
                     <a href='weixin://dl/chat?SA14DeAgosto'><p>WeChat Id SA14DeAgosto</p></a>
                 </div>
             </div>
-            <div className="contact-image">
+            <div className="contact-map">
                 {/* <img src={mapImage} alt="Contact" /> */}
                 <iframe src="https://www.google.com/maps/d/embed?mid=1YfvOFcflrjOMBO7YBEVXmWkaPIPVZVU&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
             </div>
