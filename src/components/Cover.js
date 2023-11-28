@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import '../styles/Cover.css';
-import ReactTypingEffect from 'react-typing-effect';
+import Fade from 'react-reveal/Fade';
 
 const Cover = ({ title, subtitle }) => {
     return (
@@ -16,8 +16,10 @@ const Cover = ({ title, subtitle }) => {
             imgStyle={{ objectFit: 'cover', objectPosition: 'center' }}
           />
           <div className="cover-content">
-              <h1>{title}</h1>
-              <ReactTypingEffect text={[subtitle]} speed={50}/>
+              <Fade left>
+                <h1>{title}</h1>
+                <h3>{subtitle}</h3>
+              </Fade>
           </div>
         </div>
     );
