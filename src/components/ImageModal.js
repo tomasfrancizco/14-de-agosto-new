@@ -25,7 +25,7 @@ const ImageModal = ({ isOpen, onRequestClose, images }) => {
         <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Image Carousel">
             <Slider {...settings}>
                 {images.map((image, index) => (
-                    <div key={index}>
+                    <div key={index} className='carousel-content'>
                         <img src={image.src} alt={`Slide ${index}`} />
                         <p className="carousel-text">{image.text}</p>
                     </div>

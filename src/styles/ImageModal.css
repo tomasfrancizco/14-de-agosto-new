@@ -24,11 +24,18 @@
   max-height: 80vh;
   overflow: hidden !important;
   background: white;
-  padding: 20px;
+  padding: 20px 20px 40px 20px !important;
   outline: none;
   border-radius: 5px !important;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   background-color: rgb(240, 240, 240) !important;
+}
+
+.carousel-content {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slick-arrow {
@@ -54,6 +61,7 @@
 
 .carousel-text {
   text-align: center;
+  max-width: 80%;
 }
 
 @media (max-width: 768px) {
