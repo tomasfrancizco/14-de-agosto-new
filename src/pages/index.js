@@ -11,18 +11,18 @@ import meatImage from '../images/meat.png';
 import wineImage from '../images/pexels-grape-things-2954924.jpg';
 import seafoodImage from '../images/pexels-dana-tentis-725992.jpg';
 
-import meat_1 from '../images/meat_1.png';
-import meat_2 from '../images/meat_2.png';
-import meat_3 from '../images/meat_3.png';
-import meat_4 from '../images/meat_4.png';
-import wine_1 from '../images/wine_1.png';
-import wine_2 from '../images/wine_2.png';
-import wine_3 from '../images/wine_3.png';
-import wine_4 from '../images/wine_4.png';
-import seafood_1 from '../images/seafood_1.png';
-import seafood_2 from '../images/seafood_2.png';
-import seafood_3 from '../images/seafood_3.png';
-import seafood_4 from '../images/seafood_4.png';
+import meat_1 from '../images/pexels-seb-creativo-13592975.jpg';
+import meat_2 from '../images/pexels-viktor-lundberg-755025.jpg';
+import meat_3 from '../images/pexels-nadin-sh-9541962.jpg';
+import meat_4 from '../images/pexels-los-muertos-crew-8477228.jpg';
+import wine_1 from '../images/pexels-julia-volk-5273001.jpg';
+import wine_2 from '../images/pexels-ion-ceban-ionelceban-2581022.jpg';
+import wine_3 from '../images/pexels-laker-5732740.jpg';
+import wine_4 from '../images/pexels-polina-tankilevitch-4110406.jpg';
+import seafood_1 from '../images/pexels-bedis-elacheche-891118.jpg';
+import seafood_2 from '../images/pexels-giovana-spiller-5801915.jpg';
+import seafood_3 from '../images/pexels-valeria-boltneva-679454.jpg';
+import seafood_4 from '../images/pexels-cottonbro-studio-3295856.jpg';
 
 const meatImages = [
   {src: meat_1, text: "In the fertile Pampas of Argentina, our cows are raised on lush grasslands, ensuring premium quality meat. The natural diet and open spaces contribute to the unparalleled flavor and tenderness of our Argentine beef."},
