@@ -42,8 +42,11 @@
   margin-left: 15px;
 }
 
-a:visited {
-  color: black;
+
+
+a, a:visited {
+  color: #0000ee;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
