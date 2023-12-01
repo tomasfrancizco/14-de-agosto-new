@@ -18,6 +18,7 @@
 
 .ReactModal__Content--after-open {
   position: relative !important;
+  inset: 0px !important;
   top: 50%;
   left: 50%;
   max-width: 80%;
@@ -34,6 +35,12 @@
 .carousel-content {
   display: flex !important;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-track {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -67,7 +74,6 @@
 
 @media (max-width: 768px) {
   .ReactModal__Content--after-open {
-    inset: 0px !important;
     max-width: 95%;
     max-height: 95vh;
   }
