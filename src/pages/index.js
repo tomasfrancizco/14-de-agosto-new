@@ -12,7 +12,7 @@ import wineImage from '../images/pexels-grape-things-2954924.jpg';
 import seafoodImage from '../images/pexels-dana-tentis-725992.jpg';
 
 import meat_1 from '../images/pexels-seb-creativo-13592975.jpg';
-import meat_2 from '../images/pexels-viktor-lundberg-755025.jpg';
+import meat_2 from '../images/pexels-mao-li-11718951.jpg';
 import meat_3 from '../images/pexels-nadin-sh-9541962.jpg';
 import meat_4 from '../images/pexels-los-muertos-crew-8477228.jpg';
 import wine_1 from '../images/pexels-julia-volk-5273001.jpg';
