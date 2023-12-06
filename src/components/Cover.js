@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import '../styles/Cover.css';
 import Fade from 'react-reveal/Fade';
 
 const Cover = ({ title, subtitle }) => {
+
+
+    useEffect(() => {
+      const coverContent = document.querySelector('.cover-content-init');
+      coverContent.setAttribute('class', 'cover-content')
+    }, [])
+
+
     return (
         <div className='cover-container'>
           <StaticImage
@@ -15,11 +23,12 @@ const Cover = ({ title, subtitle }) => {
             style={{ maxHeight: '1200px',  }}
             imgStyle={{ objectFit: 'cover', objectPosition: 'center' }}
           />
-          <div className="cover-content">
-              <Fade left>
+          <div className="cover-content-init">
+              <div>
                 <h1>{title}</h1>
                 <h3>{subtitle}</h3>
-              </Fade>
+                <a href='/technical-information'><button>Technical Information</button></a>
+              </div>
           </div>
         </div>
     );
