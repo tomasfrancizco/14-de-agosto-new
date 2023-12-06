@@ -59,6 +59,11 @@
   opacity: 1;
 }
 
+.cover-content a, .cover-content a:visited, .cover-content button{
+  color: black;
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .cover-container {
       min-height: 50vh;
@@ -71,5 +76,9 @@
   
   .cover-content h3 {
     font-size: 2.3rem;
+  }
+
+  .cover-content button {
+    opacity: 1;
   }
 }
