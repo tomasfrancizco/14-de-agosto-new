@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import '../styles/Cover.css';
-import Fade from 'react-reveal/Fade';
 
 const Cover = ({ title, subtitle }) => {
 
@@ -27,7 +26,8 @@ const Cover = ({ title, subtitle }) => {
               <div>
                 <h1>{title}</h1>
                 <h3>{subtitle}</h3>
-                <a href='/technical-information'><button>Technical Information</button></a>
+                {/* <a href='/technical-information'><button>Technical Information</button></a> */}
+                <a href=''><button>Technical Information</button></a>
               </div>
           </div>
         </div>
