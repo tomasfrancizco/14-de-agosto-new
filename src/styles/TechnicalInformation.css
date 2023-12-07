@@ -1,0 +1,36 @@
+.technical-information-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border: 1px solid lightgray;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
+
+.list-item:hover {
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.left-column {
+  width: 30%;
+}
+
+.left-column img {
+  width: 100px;
+  max-height: 100px;
+}
+
+.right-column {
+  width: 70%;
+}

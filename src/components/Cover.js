@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image';
 import '../styles/Cover.css';
 
@@ -26,8 +27,8 @@ const Cover = ({ title, subtitle }) => {
               <div>
                 <h1>{title}</h1>
                 <h3>{subtitle}</h3>
-                {/* <a href='/technical-information'><button>Technical Information</button></a> */}
-                <a href=''><button>Technical Information</button></a>
+                {/* <Link to='/technical-information'><button>Technical Information</button></Link> */}
+                <Link to='/'><button>Technical Information</button></Link>
               </div>
           </div>
         </div>
