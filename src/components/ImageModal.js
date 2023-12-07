@@ -11,6 +11,7 @@ Modal.setAppElement('#___gatsby');
 const ImageModal = ({ isOpen, onRequestClose, images }) => {
     const settings = {
         dots: true,
+        lazyLoad: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
