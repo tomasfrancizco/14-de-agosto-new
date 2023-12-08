@@ -9,6 +9,7 @@ import '../styles/ImageModal.css';
 Modal.setAppElement('#___gatsby');
 
 const ImageModal = ({ isOpen, onRequestClose, images }) => {
+    
     const settings = {
         dots: true,
         lazyLoad: true,
