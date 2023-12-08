@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/TechnicalInformation.css';
+import Navbar from '../components/Navbar';
 import TechnicalInformationModal from '../components/TechnicalInformationModal';
 
 import technicalInformation_1 from "../images/technical-information/9_FULL_SET.png"
@@ -24,26 +25,26 @@ import technicalInformation_19 from "../images/technical-information/HUESO_DE_PI
 import technicalInformation_20 from "../images/technical-information/HUESO_DELANTERO.png"
 
 const items = [
-  { title: "Item 1", subtitle: "Subtitle 1", src: technicalInformation_1 },
-  { title: "Item 2", subtitle: "Subtitle 2", src: technicalInformation_2 },
-  { title: "Item 3", subtitle: "Subtitle 3", src: technicalInformation_3 },
-  { title: "Item 4", subtitle: "Subtitle 4", src: technicalInformation_4 },
-  { title: "Item 5", subtitle: "Subtitle 5", src: technicalInformation_5 },
-  { title: "Item 6", subtitle: "Subtitle 6", src: technicalInformation_6 },
-  { title: "Item 7", subtitle: "Subtitle 7", src: technicalInformation_7 },
-  { title: "Item 8", subtitle: "Subtitle 8", src: technicalInformation_8 },
-  { title: "Item 9", subtitle: "Subtitle 9", src: technicalInformation_9 },
-  { title: "Item 10", subtitle: "Subtitle 10", src: technicalInformation_10 },
-  { title: "Item 11", subtitle: "Subtitle 11", src: technicalInformation_11 },
-  { title: "Item 12", subtitle: "Subtitle 12", src: technicalInformation_12 },
-  { title: "Item 13", subtitle: "Subtitle 13", src: technicalInformation_13 },
-  { title: "Item 14", subtitle: "Subtitle 14", src: technicalInformation_14 },
-  { title: "Item 15", subtitle: "Subtitle 15", src: technicalInformation_15 },
-  { title: "Item 16", subtitle: "Subtitle 16", src: technicalInformation_16 },
-  { title: "Item 17", subtitle: "Subtitle 17", src: technicalInformation_17 },
-  { title: "Item 18", subtitle: "Subtitle 18", src: technicalInformation_18 },
-  { title: "Item 19", subtitle: "Subtitle 19", src: technicalInformation_19 },
-  { title: "Item 20", subtitle: "Subtitle 20", src: technicalInformation_20 },
+  { title: "9 FULL SET", subtitle: "", src: technicalInformation_1 },
+  { title: "AGUJA", subtitle: "", src: technicalInformation_2 },
+  { title: "ASADO 5 COSTILLAS", subtitle: "", src: technicalInformation_3 },
+  { title: "ASADO 8 COSTILLAS", subtitle: "", src: technicalInformation_4 },
+  { title: "BANANITA", subtitle: "", src: technicalInformation_5 },
+  { title: "BIFE ANCHO CON HUESO", subtitle: "", src: technicalInformation_6 },
+  { title: "BIFE ANGOSTO CON HUESO / COSTILLA", subtitle: "", src: technicalInformation_7 },
+  { title: "BOLA DE LOMO", subtitle: "", src: technicalInformation_8 },
+  { title: "BRAZUELO", subtitle: "", src: technicalInformation_9 },
+  { title: "CARNAZA", subtitle: "", src: technicalInformation_10 },
+  { title: "CHINGOLO", subtitle: "", src: technicalInformation_11 },
+  { title: "COGOTE CON HUESO", subtitle: "", src: technicalInformation_12 },
+  { title: "CUADRADA", subtitle: "", src: technicalInformation_13 },
+  { title: "CUADRIL COMPLETO", subtitle: "", src: technicalInformation_14 },
+  { title: "GARRON SHANK VACIO", subtitle: "", src: technicalInformation_15 },
+  { title: "GRASA CORPORAL", subtitle: "", src: technicalInformation_16 },
+  { title: "HUESO DE AGUJA / COGOTE", subtitle: "", src: technicalInformation_17 },
+  { title: "HUESO DE CADERA", subtitle: "", src: technicalInformation_18 },
+  { title: "HUESO DE PIERNA", subtitle: "", src: technicalInformation_19 },
+  { title: "HUESO DELANTERO", subtitle: "", src: technicalInformation_20 },
 ];
 
 const TechnicalInformation = () => {
@@ -58,6 +59,7 @@ const TechnicalInformation = () => {
   
   return (
     <div>
+      <Navbar />
       <div className='technical-information-list'>
       {items.map((item, index) => (
         <div key={index} className="list-item" onClick={() => openModal(item)}>

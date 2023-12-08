@@ -27,8 +27,8 @@ const Cover = ({ title, subtitle }) => {
               <div>
                 <h1>{title}</h1>
                 <h3>{subtitle}</h3>
-                {/* <Link to='/technical-information'><button>Technical Information</button></Link> */}
-                <Link to='/'><button>Technical Information</button></Link>
+                <Link to='/technical-information'><button>Technical Information</button></Link>
+                {/* <Link to='/'><button>Technical Information</button></Link> */}
               </div>
           </div>
         </div>

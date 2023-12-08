@@ -52,7 +52,7 @@ const IndexPage = () => {
   
   return (
     <main>
-      {/* <Navbar /> */}
+      <Navbar />
       <Cover 
         title="14 De Agosto" 
         subtitle="Your Gateway to Argentina's Finest Meats, Wines and Seafood." 

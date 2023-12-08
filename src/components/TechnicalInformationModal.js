@@ -25,10 +25,10 @@ const TechnicalInformationModal = ({ isOpen, onRequestClose, item, items }) => {
   return(
     <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Technical Info Carousel">
       <Slider {...settings}>
-        {items.map((image, index) => (
+        {items.map((item, index) => (
           <div key={index} className='carousel-content'>
-            <img src={image.src} alt={`Slide ${index}`} />
-            <p className="carousel-text">{image.text}</p>
+            <img src={item.src} alt={`Slide ${index}`} />
+            <p className="carousel-text">{item.title}</p>
           </div>
         ))}
       </Slider>
