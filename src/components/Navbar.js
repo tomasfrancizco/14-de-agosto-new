@@ -3,7 +3,7 @@ import '../styles/Navbar.css';
 import { Link } from 'gatsby';
 import { useLocation } from '@reach/router';
 
-const Navbar = () => {
+const Navbar = ({ show }) => {
 
   const location = useLocation();
 
@@ -14,11 +14,13 @@ const Navbar = () => {
     }
   }, [location])
 
-  console.log({ location })
+  if (!show) {
+    return null;
+  }
 
   return(
     <div className='navbar'>
-      <Link to='/'>Home</Link>
+      <Link to='/'>HOME</Link>
     </div>
   )
 }

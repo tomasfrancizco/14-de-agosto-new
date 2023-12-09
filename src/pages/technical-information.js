@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/TechnicalInformation.css';
 import Navbar from '../components/Navbar';
 import TechnicalInformationModal from '../components/TechnicalInformationModal';
@@ -51,15 +51,17 @@ const TechnicalInformation = () => {
 
   const [selectedItem, setSelectedItem] = useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-
+  const [showNavbar, setShowNavbar] = useState(true);
+  
   const openModal = (item) => {
     setSelectedItem(item);
     setModalIsOpen(true);
+    setShowNavbar(false);
   };
   
   return (
     <div>
-      <Navbar />
+      <Navbar show={showNavbar} />
       <div className='technical-information-list'>
       {items.map((item, index) => (
         <div key={index} className="list-item" onClick={() => openModal(item)}>
@@ -75,7 +77,10 @@ const TechnicalInformation = () => {
       </div>
       <TechnicalInformationModal
         isOpen={modalIsOpen}
-        onRequestClose={() => setModalIsOpen(false)}
+        onRequestClose={() => {
+          setModalIsOpen(false);
+          setShowNavbar(true);
+        }}
         item={selectedItem}
         items={items}
       />
