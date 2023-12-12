@@ -59,6 +59,10 @@
     z-index: 999;
 }
 
+.slick-next::before, .slick-prev::before {
+    color: gray;
+}
+
 .slick-slider img {
   display: block;
   margin: auto;

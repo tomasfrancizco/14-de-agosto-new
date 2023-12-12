@@ -9,7 +9,7 @@ import '../styles/TechnicalInformationModal.css';
 const TechnicalInformationModal = ({ isOpen, onRequestClose, item, items }) => {
   
   const settings = {
-    dots: true,
+    dots: false,
     lazyLoad: true,
     infinite: true,
     speed: 500,
