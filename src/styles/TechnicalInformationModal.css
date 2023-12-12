@@ -11,4 +11,6 @@
   cursor: pointer;
   color: white;
   background-color: gray;
+  width: 20px;
+  height: 20px;
 }
