@@ -32,6 +32,7 @@ const TechnicalInformationModal = ({ isOpen, onRequestClose, item, items }) => {
           </div>
         ))}
       </Slider>
+      <button type="button" className='modal-close' onClick={onRequestClose}>x</button>
     </Modal>
   )
 }

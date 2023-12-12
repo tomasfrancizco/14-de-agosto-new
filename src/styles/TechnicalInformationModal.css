@@ -1,3 +1,14 @@
 .slick-next::before, .slick-prev::before {
   color: gray;
 }
+
+.modal-close {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: white;
+  background-color: gray;
+}
