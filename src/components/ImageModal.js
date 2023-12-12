@@ -33,6 +33,7 @@ const ImageModal = ({ isOpen, onRequestClose, images }) => {
                     </div>
                 ))}
             </Slider>
+            <button type="button" className='modal-close' onClick={onRequestClose}>x</button>
         </Modal>
     );
 };

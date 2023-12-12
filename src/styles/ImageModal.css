@@ -76,6 +76,17 @@
   height: 100%;
 }
 
+.modal-close {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: white;
+  background-color: gray;
+}
+
 @media (max-width: 768px) {
   .ReactModal__Content--after-open {
     max-width: 95%;
